@@ -16,14 +16,14 @@ export const routes: Array<RouteItem> = [
   {
     key: "router-timeline",
     title: APP_TITLE,
-    path: "/product/:id",
+    path: "/:id",
     enabled: true,
     component: lazy(() => import("../containers/ProductTimeline")),
   },
   {
     key: "router-contract",
     title: APP_TITLE,
-    path: "/contract/:id",
+    path: "/:id",
     enabled: true,
     component: lazy(() => import("../containers/DigitalContract")),
   },
