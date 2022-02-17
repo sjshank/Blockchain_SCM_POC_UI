@@ -10,8 +10,8 @@ module.exports = merge(common, {
     output: {
         path: __dirname + '/build',
         publicPath: './',
-        filename: 'main.js',
-        // chunkFilename: '[name].[contenthash].js'
+        filename: '[name].[contenthash].js',
+        chunkFilename: '[name].[contenthash].js'
     },
     devtool: false,
     performance: {
