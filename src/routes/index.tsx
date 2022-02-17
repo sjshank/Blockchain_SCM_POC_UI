@@ -6,7 +6,6 @@ import {
   ADMIN_DASHBOARD_TITLE,
   TRANSPORTER_DASHBOARD_TITLE,
   DISTRIBUTOR_DASHBOARD_TITLE,
-  PHARMA_DASHBOARD_TITLE,
   PROFILE_DASHBOARD_TITLE,
   STORE_DASHBOARD_TITLE,
 } from "../utils/constants";
@@ -68,7 +67,7 @@ export const routes: Array<RouteItem> = [
     title: PROFILE_DASHBOARD_TITLE,
     path: "/profile",
     enabled: true,
-    component: lazy(() => import("../containers/profile")),
+    component: lazy(() => import("../containers/Profile")),
   },
 ];
 
