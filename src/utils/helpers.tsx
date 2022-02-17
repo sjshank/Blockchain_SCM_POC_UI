@@ -174,17 +174,17 @@ export const getMedicineURL = (id: string): string => {
 };
 
 export const getProductURL = (id: string): string => {
-  return `${location.origin}/${id}`;
+  return `${location.origin}/product/${id}`;
 };
 
 export const getContractURL = (id: string): string => {
-  return `${location.origin}/${id}`;
+  return `${location.origin}/contract/${id}`;
 };
 
 export const isPublicFacing = (): boolean => {
   return (
-    location.pathname.indexOf("0") > -1 ||
-    location.pathname.indexOf("0") > -1
+    location.pathname.indexOf("/product") > -1 ||
+    location.pathname.indexOf("/contract") > -1
   );
 };
 
