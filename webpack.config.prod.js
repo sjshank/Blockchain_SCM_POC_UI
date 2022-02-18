@@ -4,6 +4,7 @@ const common = require('./webpack.config.common.js');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
 const zopfli = require("@gfx/zopfli");
+const path = require('path');
 
 module.exports = merge(common, {
     mode: 'production',
