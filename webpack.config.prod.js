@@ -4,21 +4,15 @@ const common = require('./webpack.config.common.js');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
 const zopfli = require("@gfx/zopfli");
-const path = require('path');
 
 module.exports = merge(common, {
     mode: 'production',
-    // output: {
-    //     path: __dirname + '/build',
-    //     publicPath: './',
-    //     filename: '[name].[contenthash].js',
-    //     chunkFilename: '[name].[contenthash].js'
-    // },
-    // output: {
-    //     path: path.resolve(__dirname, 'dist'),
-    //     filename: 'main.js',
-    //     publicPath: '/'
-    // },
+    output: {
+        path: __dirname + '/build',
+        publicPath: './',
+        filename: '[name].[contenthash].js',
+        chunkFilename: '[name].[contenthash].js'
+    },
     devtool: false,
     performance: {
         hints: false,
