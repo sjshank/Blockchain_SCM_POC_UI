@@ -15,12 +15,12 @@ module.exports = {
     //   "buffer": require.resolve("buffer/")
     // },
   },
-  // output: {
-  //   path: __dirname + '/build',
-  //   publicPath: '/',
-  //   filename: '[name].[contenthash].js',
-  //   chunkFilename: '[name].[contenthash].js'
-  // },
+  output: {
+    path: __dirname + '/build',
+    publicPath: '/',
+    filename: '[name].[contenthash].js',
+    chunkFilename: '[name].[contenthash].js'
+  },
   devServer: {
     historyApiFallback: true
   },

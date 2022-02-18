@@ -7,12 +7,12 @@ const zopfli = require("@gfx/zopfli");
 
 module.exports = merge(common, {
     mode: 'production',
-    // output: {
-    //     path: __dirname + '/build',
-    //     publicPath: './',
-    //     filename: '[name].[contenthash].js',
-    //     chunkFilename: '[name].[contenthash].js'
-    // },
+    output: {
+        path: __dirname + '/build',
+        publicPath: './',
+        filename: '[name].[contenthash].js',
+        chunkFilename: '[name].[contenthash].js'
+    },
     devtool: false,
     performance: {
         hints: false,
