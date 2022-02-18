@@ -107,6 +107,7 @@ module.exports = {
 
   plugins: [
     new CleanWebpackPlugin(),
+    new HtmlWebpackPlugin()
     // new HtmlWebpackPlugin({ title: "AAP Blockchain SCM POC", template: "./public/index.html" }),
   ]
 };
