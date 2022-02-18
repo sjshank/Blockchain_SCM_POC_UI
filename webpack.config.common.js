@@ -15,12 +15,12 @@ module.exports = {
     //   "buffer": require.resolve("buffer/")
     // },
   },
-  output: {
-    path: __dirname + '/build',
-    publicPath: '/',
-    filename: '[name].[contenthash].js',
-    chunkFilename: '[name].[contenthash].js'
-  },
+  // output: {
+  //   path: __dirname + '/build',
+  //   publicPath: '/',
+  //   filename: '[name].[contenthash].js',
+  //   chunkFilename: '[name].[contenthash].js'
+  // },
   devServer: {
     historyApiFallback: true
   },
@@ -107,6 +107,6 @@ module.exports = {
 
   plugins: [
     new CleanWebpackPlugin(),
-    new HtmlWebpackPlugin({ inject: true, template: path.resolve(__dirname, 'public', 'index.html') }),
+    new HtmlWebpackPlugin({ title: "AAP Blockchain SCM POC", filename: "index.html", template: "./public/index.html" }),
   ]
 };
