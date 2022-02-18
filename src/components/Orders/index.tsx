@@ -157,7 +157,7 @@ const OrdersComponent = ({
   };
 
   const showDigitalContract = (order: IOrder) => {
-    history.push("/contract/" + order.orderRequestId);
+    window.open(getContractURL(order.orderRequestId), "_blank");
   };
 
   const populateColumns = (order: IOrder) => {
