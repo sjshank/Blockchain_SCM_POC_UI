@@ -14,11 +14,11 @@ module.exports = merge(common, {
     //     filename: '[name].[contenthash].js',
     //     chunkFilename: '[name].[contenthash].js'
     // },
-    output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: 'main.js',
-        publicPath: '/'
-    },
+    // output: {
+    //     path: path.resolve(__dirname, 'dist'),
+    //     filename: 'main.js',
+    //     publicPath: '/'
+    // },
     devtool: false,
     performance: {
         hints: false,
