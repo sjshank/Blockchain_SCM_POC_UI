@@ -115,6 +115,7 @@ ul.tl li .timestamp {
     width: 330px;
     z-index: 2;
     border-radius: 0px;
+    padding: 10px 10px;
   }
 
   .mobile-timeline-content .MuiGrid-container {
