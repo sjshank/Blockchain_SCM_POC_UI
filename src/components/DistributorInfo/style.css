@@ -96,14 +96,18 @@ ul.tl li .timestamp {
     padding-top: 20px;
   }
 
-  .mobile-card{
-    width:330px
+  .mobile-card {
+    /* width: 330px */
+    width: 330px;
+    padding: 10px 0;
+    margin: 0 auto;
   }
 
   .mobile-timelineContainer {
     left: 0%;
-    padding: 25px 21px;
-
+    /* padding: 25px 21px; */
+    padding: 20px 0;
+    width: 100%
   }
 
   .mobile-timelineContainer::after,
@@ -112,7 +116,10 @@ ul.tl li .timestamp {
   }
 
   .mobile-timeline-content {
-    width: 330px;
+    /* width: 330px; */
+    width: 90%;
+    margin: 10px auto;
+    min-width: 330px;
     z-index: 2;
     border-radius: 0px;
     padding: 10px 10px;
@@ -131,6 +138,7 @@ ul.tl li .timestamp {
   }
 
   .history-tl-container ul.tl li {
-    margin-left: 100px;
+    /* margin-left: 100px; */
+    margin-left: 32%;
   }
 }
