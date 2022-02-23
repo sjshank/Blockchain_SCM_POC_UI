@@ -19,6 +19,9 @@ module.exports = merge(common, {
         maxEntrypointSize: 512000,
         maxAssetSize: 512000
     },
+    stats: {
+        colors: true,
+    },
     optimization: {
         splitChunks: {
             chunks: 'async',
