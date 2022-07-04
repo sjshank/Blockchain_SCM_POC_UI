@@ -34,6 +34,8 @@ const useStyles = makeStyles((useCustomTheme) => ({
   },
   loginTitle: {
     fontSize: "20px",
+    fontWeight: "bold",
+    textTransform: "uppercase",
   },
   userName: {
     paddingRight: "5px",
@@ -100,7 +102,6 @@ const AppHeaderComponent = ({ title }: AppHeaderProps) => {
   const { loginInfo, storeLoginInfo } = loginContext;
 
   const isAuth = useIsAuthorized();
-
 
   const clickActionHandler: any = (
     e: React.MouseEvent<HTMLInputElement>,

@@ -46,7 +46,7 @@ const ProductQRCodeComponent = ({
   const classes = useStyles();
   return (
     <>
-      <div style={{ zoom: "24%", marginTop: -30, marginLeft: -50 }}>
+      <div className="prod_qr_code" style={{ zoom: "24%", marginTop: -30, marginLeft: -50 }}>
         <QRCode value={data} />
       </div>
       {dialogId == uui && (

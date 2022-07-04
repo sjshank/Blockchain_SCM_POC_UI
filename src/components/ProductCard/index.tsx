@@ -8,6 +8,7 @@ import MButtonComponent from "../../generic/MButton";
 import { getProductURL } from "../../utils/helpers";
 import VerifiedIcon from "@mui/icons-material/Verified";
 import MTooltipComponent from "../../generic/MTooltip";
+import ProductQRCodeComponent from "../ProductQRCode";
 
 type ProductCardProps = {
   productData: IProduct | null;
@@ -122,6 +123,12 @@ const ProductCardComponent = ({
                   </span>
                 </div>
               </div>
+
+              <ProductQRCodeComponent
+              data={getProductURL(productData.productBasicInfo.productId)}
+              closeDialog={() => {}}
+            />
+            
               <hr className={classes.hr} />
               <div className="price">
                 USD${" "}
