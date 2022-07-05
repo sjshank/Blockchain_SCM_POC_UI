@@ -83,7 +83,7 @@ ul.tl li .timestamp {
 
 
 
-@media only screen and (min-width: 350px) and (max-width: 767px) {
+@media only screen and (min-width: 340px) and (max-width: 767px) {
   .mobile-logo {
     margin-bottom: 0px;
   }
@@ -135,17 +135,11 @@ ul.tl li .timestamp {
   }
 
   ul.tl li .timestamp {
-    left: -50%;
+    left: -54%;
   }
 
   .history-tl-container ul.tl li {
     /* margin-left: 100px; */
     margin-left: 32%;
-  }
-}
-
-@media only screen and (min-width: 350px) and (max-width: 550px) {
-  ul.tl li .timestamp {
-    left: -30%;
   }
 }
