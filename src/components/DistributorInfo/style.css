@@ -72,7 +72,7 @@ ul.tl li .item-detail a {
 ul.tl li .timestamp {
   color: rgba(0, 0, 0, 0.54);
   position: absolute;
-  width: 100px;
+  width: 90px;
   left: -44%;
   margin-top: 2px;
   line-height: 1.1;
