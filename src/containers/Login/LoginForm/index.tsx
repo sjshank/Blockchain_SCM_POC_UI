@@ -204,7 +204,7 @@ const LoginFormComponent = () => {
         </div>
         <div>
         <p className={formClasses.rightContent}>
-          The Blockchain technology based solution will enable streamlined visibility of movement and stakeholders through which products transit in the supply chain. The improved traceability facilitates the optimization of flows of goods and an efficient stock management system.
+          The Blockchain technology based solution will enable streamlined visibility of movement and stakeholders through which products transit. The improved traceability facilitates the optimization of flows of goods and an efficient stock management system.
         </p>
         </div>
       </Container>
