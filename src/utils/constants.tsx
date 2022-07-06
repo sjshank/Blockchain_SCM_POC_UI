@@ -4,7 +4,7 @@ import { MouseEventHandler } from "react";
 export const APP_TITLE = "Advance Verify";
 export const RETAIL_SUPPLY_CHAIN = "AAP SUPPLY CHAIN";
 export const APP_DESC =
-  "The retail blockchain based solution will enable streamlined visibility of movement and stakeholders through which products transit in the supply chain. The improved traceability facilitates the optimization of flows of goods and an efficient stock management system.";
+  "The retail blockchain based solution will enable streamlined visibility of movement and stakeholders through which products transit. The improved traceability facilitates the optimization of flows of goods and an efficient stock management system.";
 export const CURRENT_YEAR = `${new Date().getFullYear()}`;
 export const APP_FOOTER_TEXT = `${new Date().getFullYear()} Built by `;
 export const METAMASK_ERR =
